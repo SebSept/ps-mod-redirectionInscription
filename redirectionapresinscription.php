@@ -31,7 +31,7 @@ class RedirectionApresInscription extends Module
         $this->displayName = $this->l('Redirection après inscription');
         $this->description = $this->l('Rédirige l utilisateur qui vient de s&#039;inscrire vers une page CMS.');
 
-        $this->version = '0.1';
+        $this->version = '0.11';
         $this->author = 'seb7.fr';
     }
 
