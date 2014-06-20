@@ -11,6 +11,8 @@ Permet de rediriger l'utilisateur qui vient de réussir son inscription vers une
 
 Dans le fichier `redirectionapresinscription.php` modifier la valeur de `protected $id_page_cms = 1;`
 
+[Téléchargement](https://github.com/SebSept/ps-mod-redirectionInscription/releases/latest)
+
 ----
 
 - http://seb7.fr/
