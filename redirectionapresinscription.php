@@ -57,6 +57,8 @@ class RedirectionApresInscription extends Module
     {
         $link = new Link();
         $_POST['back'] = htmlentities( $link->getCMSLink($this->id_page_cms) );
+        
+        Logger::addLog($this->name.' : Redirection vers '.$_POST['back'],  1, null, null, $this->id_page_cms, true);
     }
 
 }
